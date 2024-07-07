@@ -1,0 +1,38 @@
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\TextBlock-Inlines.exe.config
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\TextBlock-Inlines.exe
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\TextBlock-Inlines.pdb
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.csprojResolveAssemblyReference.cache
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\MainWindow.baml
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\MainWindow.g.cs
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\App.g.cs
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines_MarkupCompile.cache
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.g.resources
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock_Inlines.Properties.Resources.resources
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.csproj.GenerateResource.Cache
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.exe
+D:\Project\Web\Recuirement Web HowKTeam\Git\Video hướng dẫn\WPF C#\89.0. Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.pdb
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\TextBlock-Inlines.exe.config
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\TextBlock-Inlines.exe
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\TextBlock-Inlines.pdb
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.csproj.AssemblyReference.cache
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\MainWindow.baml
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\MainWindow.g.cs
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\App.g.cs
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines_MarkupCompile.cache
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.g.resources
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock_Inlines.Properties.Resources.resources
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.csproj.GenerateResource.cache
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.csproj.CoreCompileInputs.cache
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.exe
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBlock-Inlines.pdb
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\S7.Net.dll
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Buffers.dll
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Memory.dll
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Numerics.Vectors.dll
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\S7.Net.xml
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Buffers.xml
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Memory.xml
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Numerics.Vectors.xml
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\THLT\CSharp\3.Inline TextBlock\TextBlock-Inlines\TextBlock-Inlines\obj\Debug\TextBloc.82680530.Up2Date

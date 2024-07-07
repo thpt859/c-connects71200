@@ -1,0 +1,148 @@
+﻿<Window x:Class="TextBlock_Inlines.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" WindowState="Maximized"
+        Width="800" Height="450"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <GroupBox Grid.Row="0" Grid.Column="0" Header="....." >
+            <Image Grid.Row="0" Grid.Column="0" Source="/Images/dotnet.png"/>
+        </GroupBox>
+
+        <GroupBox Grid.Row="0" Grid.Column="1" Header="Connect to PLC"  >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Margin="1" Content="CPU Type" Grid.Row="0" Grid.Column="0"/>
+                <ComboBox x:Name="cbBox_CpuType" Margin="1" BorderThickness="1" Foreground="Gray" Grid.Row="0" Grid.Column="1"/>
+
+                <Label Margin="1" Content="IP Address" Grid.Row="1" Grid.Column="0"/>
+                <TextBox x:Name="txtb_ipAdress" Margin="1" Text="192.168.0.1" BorderThickness="1" Foreground="Gray" Grid.Row="1" Grid.Column="1" TextAlignment="Center"/>
+
+                <Label Margin="1" Content="Rack" Grid.Row="2" Grid.Column="0"/>
+                <TextBox x:Name="txtb_rack" Margin="1" Text="0" BorderThickness="1" Foreground="Gray" Grid.Row="2" Grid.Column="1" TextAlignment="Center"/>
+
+                <Label Margin="1" Content="Slot" Grid.Row="3" Grid.Column="0"/>
+                <TextBox x:Name="txtb_slot" Margin="1" Text="1" BorderThickness="1" Foreground="Gray" Grid.Row="3" Grid.Column="1" TextAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20">
+            <Button x:Name="btn_Connect" Content="Connect"  Background="ForestGreen" Margin="5"  />
+            <Button x:Name="btn_Disconnect" Content="Disconnect"  Background="Red" Margin="5"  />
+        </StackPanel>
+
+
+        <GroupBox Grid.Row="1" Grid.Column="0" Header="Read/Write"  >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Margin="1" Content="Data Format" Grid.Row="0" Grid.Column="0"/>
+                <ComboBox x:Name="cbBox_dataFormat" Margin="1" BorderThickness="1" Foreground="Gray" Grid.Row="0" Grid.Column="1"/>
+
+                <Label Margin="1" Content="Address Type" Grid.Row="1" Grid.Column="0"/>
+                <ComboBox x:Name="cbBox_addressType" Margin="1" BorderThickness="1" Foreground="Gray" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Margin="1" Content="Main No." Grid.Row="2" Grid.Column="0"/>
+                <TextBox x:Name="txt_mainNo" Margin="1" BorderThickness="1" Foreground="Gray" Grid.Row="2" Grid.Column="1"/>
+
+                <Label Margin="1" Content="Sub No." Grid.Row="3" Grid.Column="0"/>
+                <TextBox x:Name="txt_subNo" Margin="1" BorderThickness="1" Foreground="Gray" Grid.Row="3" Grid.Column="1"/>
+
+                <Label Margin="1" Content="Value" Grid.Row="4" Grid.Column="0"/>
+                <TextBox x:Name="txt_value" Margin="1" Text="0" BorderThickness="1" Foreground="Gray" Grid.Row="4" Grid.Column="1" TextAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20">
+            <Button x:Name="btn_Read" Content="Read From PLC"  Background="LightGray" Margin="5"  />
+            <Button x:Name="btn_Write" Content="Write 2 PLC"  Background="LightGray" Margin="5"  />
+        </StackPanel>
+
+        <!-- Frequency Setting Section -->
+        <!--<GroupBox Grid.Row="1" Grid.Column="0" Header="Frequency Setting (Hz)"  >
+            <StackPanel Margin="30,0,30,0" Height="79">
+                <TextBox Name="FrequencyTextBox" Width="300" Height="auto" Margin="0,10" HorizontalAlignment="Center"/>
+                <Button Content="Freq. Write" Width="100" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>-->
+        <!-- Control Buttons -->
+
+
+
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="VFD Connection" >
+            <StackPanel VerticalAlignment="Top">
+                <Label Content="Port. No" />
+                <ComboBox Name="PortComboBox"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Open" Width="60" Margin="5" Height="20" />
+                    <Button Content="Close" Width="60" Margin="5" Height="20" />
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10" Orientation="Vertical" VerticalAlignment="Center">
+            <Grid VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Frequency Setting" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock x:Name="frq" Text="0" Background="Purple" Foreground="White" Grid.Row="0" Grid.Column="1" TextAlignment="Center"/>
+
+                <Label Content="Output Frequency (Hz)" Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="0" Background="Blue" Foreground="White" Grid.Row="1" Grid.Column="1" TextAlignment="Center"/>
+
+                <Label Content="Output Current (A)" Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="0" Background="Red" Foreground="White" Grid.Row="2" Grid.Column="1" TextAlignment="Center"/>
+
+                <Label Content="Output Voltage (V)" Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="0" Background="Green" Foreground="White" Grid.Row="3" Grid.Column="1" TextAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="REVERSE" Background="Blue" Foreground="White" Width="100" Height="50" Margin="5"/>
+            <Button Content="STOP" Background="Red" Foreground="White" Width="100" Height="50" Margin="5"/>
+            <Button Content="FORWARD" Background="Green" Foreground="White" Width="100" Height="50" Margin="5"/>
+        </StackPanel>
+    </Grid>
+
+</Window>
